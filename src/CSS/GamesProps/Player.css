@@ -1,0 +1,18 @@
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.back-button {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+}

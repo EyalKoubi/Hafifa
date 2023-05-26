@@ -1,0 +1,45 @@
+/* RemoveQuiz.css */
+.remove-quiz-screen {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.remove-quiz-screen h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.quiz-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quiz-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.quiz-question {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.remove-button {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button {
+    padding: 5px 10px;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
